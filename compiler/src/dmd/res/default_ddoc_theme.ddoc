@@ -425,6 +425,7 @@ DDOC =
         font-family: Menlo,monospace;
         font-size: 0.85em;
         word-wrap: break-word;
+        hyphens: none;
       }
 
       .ddoc .code i {
@@ -598,10 +599,12 @@ DDOC =
 
       .param {
         color: rgba(0, 0, 0, 1);
+        white-space: nowrap;
       }
 
       .psymbol {
         color: rgba(0, 0, 0, 1);
+        white-space: nowrap;
       }
 
       .ddoc_member_header .ddoc_header_anchor .code {

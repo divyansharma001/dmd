@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/dmd checkout -b fix-23984-ddoc-identifier-hyphenation)"
+    ]
+  }
+}
